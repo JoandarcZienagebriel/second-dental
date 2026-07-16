@@ -23,11 +23,11 @@ const reviews = [
     },
   },
   {
-    name: 'Hana Girma',
+    name: 'Jess',
     time: '2 months ago',
     rating: 5,
 
-    text: 'Very professional and caring staff. The clinic is clean and modern. Highly recommend!',
+    text: "Excellent service and very friendly staff. My visit was quick and comfortable.",
     radius: {
       borderTopLeftRadius: 14,
       borderTopRightRadius: 14,
@@ -39,7 +39,7 @@ const reviews = [
     name: 'Dawit Mengistu',
     time: '1 month ago',
     rating: 5,
-    text: 'Excellent service from start to finish. Dr. Mira made me feel comfortable throughout the procedure.',
+    text: "The dentist was professional and explained everything clearly. Highly recommend!",
     radius: {
       borderTopLeftRadius: 14,
       borderTopRightRadius: 170,
@@ -48,10 +48,10 @@ const reviews = [
     },
   },
    {
-    name: 'Dawit Mengistu',
+    name: 'Yors',
     time: '1 month ago',
     rating: 5,
-    text: 'Excellent service from start to finish. Dr. Mira made me feel comfortable throughout the procedure.',
+    text: "Clean clinic, welcoming team, and outstanding dental care. I'll definitely be back.",
     radius: {
       borderTopLeftRadius: 14,
       borderTopRightRadius: 14,
@@ -60,10 +60,10 @@ const reviews = [
     },
   },
    {
-    name: 'Dawit Mengistu',
+    name: 'Abel Tsega',
     time: '1 month ago',
     rating: 5,
-    text: 'Excellent service from start to finish. Dr. Mira made me feel comfortable throughout the procedure.',
+    text: "Pain-free treatment and great results. The whole experience exceeded my expectations.",
     radius: {
       borderTopLeftRadius: 14,
       borderTopRightRadius: 14,
@@ -72,10 +72,11 @@ const reviews = [
     },
   },
    {
-    name: 'Dawit Mengistu',
+    name: 'James Fuhad',
     time: '1 month ago',
     rating: 5,
-    text: 'Excellent service from start to finish. Dr. Mira made me feel comfortable throughout the procedure.',
+    text:"Professional, caring, and efficient. I left with a healthier smile and great confidence!"
+,
     radius: {
       borderTopLeftRadius: 14,
       borderTopRightRadius: 14,
