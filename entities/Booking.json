@@ -1,0 +1,78 @@
+{
+  "name": "Booking",
+  "type": "object",
+  "properties": {
+    "patient_name": {
+      "type": "string",
+      "title": "Patient Name"
+    },
+    "patient_email": {
+      "type": "string",
+      "title": "Patient Email"
+    },
+    "patient_phone": {
+      "type": "string",
+      "title": "Patient Phone"
+    },
+    "service": {
+      "type": "string",
+      "title": "Service",
+      "enum": [
+        "General & Preventive Dentistry",
+        "Diagnostic Services",
+        "Restorative Dentistry",
+        "Root Canal (Endodontic) Treatment",
+        "Gum (Periodontal) Treatment",
+        "Oral Surgery",
+        "Dental Implants & Tooth Replacement",
+        "Cosmetic Dentistry",
+        "Orthodontics (Teeth Alignment)",
+        "Paediatric & Emergency Dental Care"
+      ]
+    },
+    "dentist": {
+      "type": "string",
+      "title": "Dentist",
+      "enum": [
+        "Dr. Abebe Tadesse",
+        "Dr. Selam Bekele"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Appointment Date"
+    },
+    "start_time": {
+      "type": "string",
+      "title": "Start Time"
+    },
+    "end_time": {
+      "type": "string",
+      "title": "End Time"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "pending",
+        "confirmed",
+        "cancelled"
+      ],
+      "default": "confirmed"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "patient_name",
+    "patient_phone",
+    "service",
+    "dentist",
+    "date",
+    "start_time",
+    "end_time"
+  ]
+}
