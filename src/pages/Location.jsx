@@ -22,7 +22,7 @@ export default function Location() {
               Our Location
             </h1>
             <p className="space-y-5 leading-relaxed text-[#fff] text-base md:text-md xl:text-lg max-w-2xl mx-auto">
-              Conveniently located on Rwanda Street in the heart of Addis Ababa, Mira Dental Clinic is easy to reach by car or public transportation. We welcome walk-ins and appointments alike.
+              Conveniently located on Rwanda Street in the heart of Addis Ababa, Dental Clinic is easy to reach by car or public transportation. We welcome walk-ins and appointments alike.
             </p>
           </motion.div>
         </div>
