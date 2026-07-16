@@ -9,7 +9,7 @@ export default function AboutPreview() {
 
   return (
     <section className="py-0 lg:py-24">
-      <div className="max-w-7xl mx-auto bg-[#353238]">
+      <div className="max-w-7xl mx-auto bg-[#b3d89c]/60">
         <div className="flex flex-col items-center gap-0 md:min-h-screen md:border-4 border-[#4f772d] md:bg-[url('../../../assets/img/us.avif')] bg-cover bg-no-repeat "
        >
           <motion.div
