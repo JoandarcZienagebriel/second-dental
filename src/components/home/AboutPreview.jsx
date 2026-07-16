@@ -17,7 +17,7 @@ export default function AboutPreview() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.6 }}
-            className="order-2 p-4 md:order-1 text-lg  md:w-1/2 md:bg-[#353238]/70 md:p-10 lg:p-14 md:m-auto md:rounded-tr-[10rem] "
+            className="order-2 p-4 md:order-1 text-lg  md:w-1/2 md:bg-[#b3d89c]/60 md:p-10 lg:p-14 md:m-auto md:rounded-tr-[10rem] "
           >
          
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-[#4f772d] mb-4 leading-tight">
