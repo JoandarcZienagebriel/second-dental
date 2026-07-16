@@ -56,10 +56,10 @@ export default function Location() {
                   <Phone className="w-5 h-5 text-[#4f772d] mt-0.5 shrink-0" />
                   <div>
                     <p className="font-medium text-[#273138]">Phone</p>
-                    <a href="tel:0936495034" className="text-[#353238] text-sm hover:text-[#1E3A8A] transition-colors">
-                      093 649 5034
-                    </a> - <a href="tel:0936495034" className="text-[#353238] text-sm hover:text-[#1E3A8A] transition-colors">
-                      093 649 5034
+                    <a href="tel:09336495034" className="text-[#353238] text-sm hover:text-[#1E3A8A] transition-colors">
+                      0933 649 5034
+                    </a> - <a href="tel:09336495034" className="text-[#353238] text-sm hover:text-[#1E3A8A] transition-colors">
+                      0933 649 5034
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export default function Location() {
                   Book Online
                 </Link>
                 <a
-                  href="tel:0936495034"
+                  href="tel:09336495034"
                   className="inline-flex items-center justify-center border-2 border-[#353238] text-[#353238] px-6 py-3 font-semibold text-sm hover:bg-[#353238] hover:text-white hover:rounded-full transition-colors"
                 >
                   <Phone className="w-4 h-4 mr-2" />

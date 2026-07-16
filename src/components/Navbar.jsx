@@ -37,11 +37,11 @@ export default function Navbar() {
       {/* Desktop top bar */}
       <div className="hidden md:flex items-center justify-end max-w-7xl mx-auto px-6 pt-3 pb-1 gap-4">
         <a
-          href="tel:0936495034"
+          href="tel:09336495034"
           className="flex items-center gap-2 border border-white px-6 py-2.5 md:text-sm xl:text-[1rem] font-medium text-white hover:bg-[z] hover:text-white hover:rounded-3xl transition-colors"
         >
           <Phone className="w-3.5 h-3.5" />
-          093 649 5034
+          0933 649 5034
         </a>
         <Link
           to="/booking"
@@ -90,7 +90,7 @@ export default function Navbar() {
         {/* Mobile phone + book */}
         <div className="flex md:hidden items-center gap-1">
           <a
-            href="tel:0936495034"
+            href="tel:09336495034"
             className="border border-white p-2 text-white"
             aria-label="Call us"
           >
@@ -126,11 +126,11 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:0936495034"
+              href="tel:36495034"
               className="flex items-center gap-2 px-4 py-3 text-base font-medium text-[#0F1A20] hover:bg-[#1E3A8A] rounded-md"
             >
               <Phone className="w-4 h-4" />
-              093 649 5034
+              3 649 5034
             </a>
           </div>
         </div>
