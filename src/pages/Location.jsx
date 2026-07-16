@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Star, Clock } from 'lucide-react';
 import { FaTiktok } from 'react-icons/fa';
-import locationbg from '../assets/img/receptionist.jpg'
+import locationbg from '../assets/img/receptionist.avif'
 
 export default function Location() {
   return (
     <div>
       {/* Header */}
       <section className="relative py-12 md:py-20 bg-center bg-cover bg-no-repeat"style={{backgroundImage:`url(${locationbg})`}}>
-         <div className='absolute inset-0 bg-[#000]/20'></div>
+         <div className='absolute inset-0 bg-[#000]/30'></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

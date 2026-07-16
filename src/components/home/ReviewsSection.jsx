@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
-import texture from "../../assets/img/texture.png";
-import teeth from '../../assets/img/6.png';
-import land from '../../assets/img/landbg.jpg'
+
 const width = window.innerWidth;
 
 

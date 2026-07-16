@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <div>
       {/* Header */}
-      <section className="relative py-12 md:py-20 lg:h-[50em] bg-[url('../../assets/img/us-banner.png')] bg-cover bg-no-repeat">
+      <section className="relative py-12 md:py-20 lg:h-[50em] bg-[url('../../assets/img/us-banner.avif')] bg-cover bg-no-repeat">
       <div className='absolute inset-0 bg-[#000]/20'></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center pt-16">
           <motion.div

@@ -1,9 +1,9 @@
 import { IMAGES } from './images';
-import diagnostic from '../assets/img/1.png';
-import whitening from '../assets/img/m.png';
-import pedi from '../assets/img/child.png';
-import implant from '../assets/img/implant.png';
-import align from '../assets/img/align.png';
+import diagnostic from '../assets/img/4.avif';
+import whitening from '../assets/img/m.avif';
+import pedi from '../assets/img/child.avif';
+import implant from '../assets/img/implant.avif';
+import align from '../assets/img/align.avif';
 import one from '../assets/img/1.avif';
 import two from '../assets/img/3.avif'
 export const SERVICES = [

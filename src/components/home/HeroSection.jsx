@@ -17,14 +17,14 @@ export default function HeroSection() {
   }, [images.length]);
 
   return (
-    <section className="relative w-full h-[100vh] border-b-4 border-[#353238] md:h-[100vh] overflow-hidden">
+    <section className="relative w-full h-[110vh] bg-[#b3d89c]/60 border-b-4 border-[#b3d89c] overflow-hidden">
       {/* Background images */}
      
     <div className='' >
 
    <div className="relative h-screen overflow-hidden">
            <video autoPlay muted loop playsInline
-            className="absolute inset-0 h-full w-full object-cover "
+            className="absolute inset-0 h-full w-full object-cover"
           >
           <source src={clinicVideo} type='video/mp4'/>
           </video>

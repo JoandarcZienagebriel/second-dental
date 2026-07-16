@@ -4,13 +4,13 @@ import { IMAGES } from '@/lib/images';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { SERVICES } from '@/lib/servicesData';
-import land from '../../assets/img/landbg.jpg';
+
 
 
 export default function DentistsSection() {
   return (
-    <section className="relative py-16 bg-cover bg-no-repeat md:py-24 " style={{backgroundImage:`url(${land})`}}>
-       <div className='absolute inset-0 bg-[#fff]/90'></div>
+    <section className="relative py-16 bg-[#b3d89c] md:py-24 ">
+       <div className='absolute inset-0 bg-[#fff]/60'></div>
       <div className="relative max-w-7xl mx-auto px-4 md:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ export default function DentistsSection() {
 
               <div
                
-                className={`grid grid-cols-1 items-center text-[#353238] mb-8 lg:w-[25rem] flex-shrink-0 bg-[#fefae0] border-2 border-[#4f772d] rounded-br-[8rem] p-6 `}
+                className={`grid grid-cols-1 items-center text-[#353238] mb-8 lg:w-[25rem] flex-shrink-0 bg-[#fcfffd] border-2 border-[#4f772d] rounded-br-[8rem] p-6 `}
               >
               
                   <h2 className="font-heading text-2xl md:text-xl font-semibold mb-4">

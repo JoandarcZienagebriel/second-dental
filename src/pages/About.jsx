@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { IMAGES } from '@/lib/images';
-import aboutbg from '../assets/img/aboutbg.jpg';
+import aboutbg from '../assets/img/aboutbg.avif';
 
 export default function About() {
   const [lightbox, setLightbox] = useState(null);
@@ -11,7 +11,7 @@ export default function About() {
     <div>
       {/* Clinic Story */}
       <section className="relative py-16 md:py-24 bg-center bg-cover bg-no-repeat" style={{backgroundImage:`url(${aboutbg})`}}>
-        <div className='absolute inset-0 object-cover bg-[#000]/10'/>
+        <div className='absolute inset-0 object-cover bg-[#000]/30'/>
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-white md:px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -24,13 +24,13 @@ export default function About() {
             </h1>
             <div className="space-y-5 leading-relaxed text-base md:text-md xl:text-lg">
               <p className=''>
-                Mira Dental Clinic was born from a simple yet profound belief: that quality dental care should be accessible and transformative. In 2018, what started as a modest practice on Rwanda Street in the heart of Addis Ababa has since grown into one of the city's most trusted dental clinics.
+                Dental Clinic was born from a simple yet profound belief: that quality dental care should be accessible and transformative. In 2018, what started as a modest practice on Rwanda Street in the heart of Addis Ababa has since grown into one of the city's most trusted dental clinics.
               </p>
               <p>
                 Our founders envisioned a space where patients would feel genuinely cared for — where the latest dental technology meets a warm, human approach. From our very first patient, we made a promise: to treat every smile as if it were our own.
               </p>
               <p>
-                Today, Mira Dental serves hundreds of families across Addis Ababa, from children experiencing their first dental visit to adults seeking life-changing cosmetic procedures. Our growth has been organic, driven entirely by the trust our patients place in us and the referrals they share with loved ones.
+                Today, Dental serves hundreds of families across Addis Ababa, from children experiencing their first dental visit to adults seeking life-changing cosmetic procedures. Our growth has been organic, driven entirely by the trust our patients place in us and the referrals they share with loved ones.
               </p>
             </div>
           </motion.div>
@@ -38,7 +38,7 @@ export default function About() {
       </section>
 
       {/* Doctors Story */}
-      <section className="py-16 md:py-24 bg-[#F5F5F4]">
+      <section className="py-16 md:py-24 bg-[#b3d89c]/60">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -96,7 +96,7 @@ export default function About() {
                 <p className="text-[#4f772d] font-medium text-sm mb-5">Cosmetic Specialist</p>
                 <div className="space-y-4 text-[#273138] text-md leading-relaxed">
                   <p>
-                    Dr. Abebe's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
+                    Dr. Thomas's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
                   </p>
                   <p>
                     After graduating with honors from Addis Ababa University's School of Dentistry, Dr. Abebe spent three years training in advanced restorative and implant dentistry. He co-founded Mira Dental with a vision to bring world-class dental care to Ethiopia.
@@ -121,7 +121,7 @@ export default function About() {
           >
             <p className="text-[#1E3A8A] text-sm font-semibold tracking-widest uppercase mb-3">Our Space</p>
             <h2 className="font-heading text-3xl md:text-4xl font-semibold text-[#353238]">
-              Inside Mira Dental
+              Inside Dental
             </h2>
           </motion.div>
 

@@ -1,9 +1,9 @@
-import doc1 from '../assets/img/doc1.jpg';
-import doc2 from '../assets/img/doc2.jpg';
+import doc1 from '../assets/img/doc1.avif';
+import doc2 from '../assets/img/doc2.avif';
 export const IMAGES = {
   
   hero: {
- root:'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/52631ed5a_1.png',
+ root:'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/52631ed5a_4.avif',
     gum:'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/011a930ad_3.png',
     
   },
