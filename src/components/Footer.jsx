@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className='flex flex-col items-center mb-4 lg:flex-row items-start lg:gap-[10rem] xl:gap-[14rem]'>
          <div>
-              <span className="font-heading text-4xl mb-4 font-semibold text-white whitespace-nowrap">Dental Clinic</span>
+              <span className="font-heading text-4xl mb-4 font-semibold text-white">Dental Clinic</span>
            
             <p className="text-sm mb-2 text-[#F5F5F4] leading-relaxed whitespace-nowrap">
               Compassion, Expertise, and Commitment.
@@ -19,11 +19,11 @@ export default function Footer() {
             </div>
             <div className="flex flex-col max-w-7xl px-6 pt-3 pb-1 gap-4 lg:flex-row lg:gap-10">
         <a
-          href="tel:0936495034"
+          href="tel:09336495034"
           className="flex items-center gap-2 border border-[#fff] px-6 py-2.5 md:text-sm xl:text-[1rem] font-medium text-[#fff] hover:bg-[#132a13] hover:[#132a13] hover:text-white hover:rounded-3xl transition-colors"
         >
           <Phone className="w-3.5 h-3.5" />
-          093 649 5034
+          0933 649 5034
         </a>
         <Link
           to="/booking"
