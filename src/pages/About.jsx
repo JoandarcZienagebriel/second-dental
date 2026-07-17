@@ -92,7 +92,7 @@ export default function About() {
                 <img src={IMAGES.dentist1} alt="Dr. Abebe Tadesse" className="w-full h-full object-cover rounded-t-full border-4 border-[#4f772d]" />
               </div>
               <div>
-                <h3 className="font-heading text-2xl md:text-3xl font-semibold text-[#353238] mb-2">Dr. Abebe Tadesse</h3>
+                <h3 className="font-heading text-2xl md:text-3xl font-semibold text-[#353238] mb-2">Dr. Thomas</h3>
                 <p className="text-[#4f772d] font-medium text-sm mb-5">Cosmetic Specialist</p>
                 <div className="space-y-4 text-[#273138] text-md leading-relaxed">
                   <p>
