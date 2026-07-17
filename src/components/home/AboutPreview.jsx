@@ -24,7 +24,7 @@ export default function AboutPreview() {
               We Care 
             </h2>
             <p className="text-[#fff] text-md leading-relaxed">
-              At Mira Dental Clinic, we believe every patient deserves personalized, gentle dental care in a warm and welcoming environment. 
+              At Dental Clinic, we believe every patient deserves personalized, gentle dental care in a warm and welcoming environment. 
             </p>
            
             <Link
