@@ -18,7 +18,6 @@ export const IMAGES = {
     'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/18e9802f8_generated_980535e5.png',
     'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/9eaa1d926_generated_9877e878.png',
     'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/7bc8c0b87_generated_61d1d93a.png',
-    'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/ca2de4ac9_generated_d36f1a46.png',
-    'https://media.base44.com/images/public/6a3abba0b638fbcdb7679bb9/7ce869703_generated_54ad104a.png',
+   
   ],
 };

@@ -119,7 +119,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <p className="text-[#1E3A8A] text-sm font-semibold tracking-widest uppercase mb-3">Our Space</p>
+            <p className="text-[#4f772d] text-sm font-semibold tracking-widest uppercase mb-3">Our Space</p>
             <h2 className="font-heading text-3xl md:text-4xl font-semibold text-[#353238]">
               Inside Dental
             </h2>
@@ -141,7 +141,7 @@ export default function About() {
                 <img
                   src={img}
                   alt={`Clinic interior ${i + 1}`}
-                  className={`w-full object-cover group-hover:scale-105 transition-transform duration-500 ${
+                  className={`w-full object-cover border-4 border-[#4f772d] group-hover:scale-105 transition-transform duration-500 ${
                     i === 0 ? 'h-full min-h-[200px] md:min-h-[300px]' : 'h-40 md:h-48'
                   }`}
                 />
