@@ -130,7 +130,7 @@ export default function Navbar() {
               className="flex items-center gap-2 px-4 py-3 text-base font-medium text-[#0F1A20] hover:bg-[#1E3A8A] rounded-md"
             >
               <Phone className="w-4 h-4" />
-              3 649 5034
+             09336495034
             </a>
           </div>
         </div>
