@@ -26,14 +26,14 @@ export default function HeroSection() {
  
 
 
-          <video autoPlay muted loop playsInline
+          <video autoPlay muted loop playsInline preload="auto"
             className="absolute inset-0 h-full w-full object-cover md:hidden"
   >
     <source src={clinicS} type="video/mp4" />
   </video>
 
 
-  <video autoPlay muted loop playsInline
+  <video autoPlay muted loop playsInline preload="auto"
             className="absolute inset-0 hidden h-full w-full object-cover md:block"
   >
     <source src={clinicB} type="video/mp4" />
