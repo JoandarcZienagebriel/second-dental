@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className='flex flex-col items-center mb-4 lg:flex-row items-start lg:gap-[10rem] xl:gap-[14rem]'>
          <div>
-              <span className="font-heading text-4xl mb-4 font-semibold text-white whitespace-nowrap">Mira Dental</span>
+              <span className="font-heading text-4xl mb-4 font-semibold text-white whitespace-nowrap">Dental Clinic</span>
            
             <p className="text-sm mb-2 text-[#F5F5F4] leading-relaxed whitespace-nowrap">
               Compassion, Expertise, and Commitment.
@@ -79,7 +79,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-[#F5F5F4]/20 text-center">
           <p className="text-xs text-[#F5F5F4]">
-            © {new Date().getFullYear()} Mira Dental Clinic. All rights reserved.
+            © {new Date().getFullYear()} Dental Clinic. All rights reserved.
           </p>
         </div>
       </div>
