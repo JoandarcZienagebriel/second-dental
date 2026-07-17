@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IMAGES } from '@/lib/images';
-import clinicVideo from '../../assets/video/clinic.mp4';
-
+import clinicS from '../../assets/video/small.mp4';
+import clinicB from '../../assets/video/big.mp4';
 
 export default function HeroSection() {
   const [current, setCurrent] = useState(0);
@@ -23,11 +23,21 @@ export default function HeroSection() {
     <div className='' >
 
    <div className="relative h-screen overflow-hidden">
-           <video autoPlay muted loop playsInline
-            className="absolute inset-0 h-full w-full object-cover"
-          >
-          <source src={clinicVideo} type='video/mp4'/>
-          </video>
+ 
+
+
+          <video autoPlay muted loop playsInline
+            className="absolute inset-0 h-full w-full object-cover md:hidden"
+  >
+    <source src={clinicS} type="video/mp4" />
+  </video>
+
+
+  <video autoPlay muted loop playsInline
+            className="absolute inset-0 hidden h-full w-full object-cover md:block"
+  >
+    <source src={clinicB} type="video/mp4" />
+  </video>
          
        
       {/* Content overlay */}
