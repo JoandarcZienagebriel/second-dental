@@ -73,7 +73,7 @@ export default function About() {
                     Dr. Mira discovered her calling in cosmetic dentistry while studying at the University of Addis Abeba, where she was captivated by the intersection of art and science. She went on to specialize in aesthetic dentistry and orthodontics.
                   </p>
                   <p>
-                    With an artist's eye and a surgeon's precision, Dr. Selam has transformed countless smiles through veneers, whitening, and alignment treatments. Her gentle approach puts even the most anxious patients at ease.
+                    With an artist's eye and a surgeon's precision, Dr. Mira has transformed countless smiles through veneers, whitening, and alignment treatments. Her gentle approach puts even the most anxious patients at ease.
                   </p>
                   
                 </div>
@@ -99,7 +99,7 @@ export default function About() {
                     Dr. Thomas's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
                   </p>
                   <p>
-                    After graduating with honors from Addis Ababa University's School of Dentistry, Dr. Abebe spent three years training in advanced restorative and implant dentistry. He co-founded Mira Dental with a vision to bring world-class dental care to Ethiopia.
+                    After graduating with honors from Addis Ababa University's School of Dentistry, Dr. Thomas spent three years training in advanced restorative and implant dentistry. He co-founded Mira Dental with a vision to bring world-class dental care to Ethiopia.
                   </p>
                
                 </div>
