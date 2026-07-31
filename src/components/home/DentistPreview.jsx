@@ -36,11 +36,11 @@ export default function DentistsSection() {
         >
               <div className='order-2 md:order-2 bg-[#8E8358]/70 p-[1.5rem]'>
            <h2 className="font-heading text-3xl pb-3 pt-12 text-center md:text-4xl xl:pt-48 font-semibold text-black">
-            Meet Dr. Mira
+            Meet Dr. Jenny
           </h2>
         
                  <p className='font-body text-[#fff] text-[1rem] text-center leading-relaxed lg:px-12 xl:px-28'>
-                    Dr. Thomas's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
+                    Dr. Jenny's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
                   
                   </p>
                   <p className='font-body text-[#fff] text-[1rem] text-center leading-relaxed lg:px-12 xl:px-28'>
@@ -69,11 +69,11 @@ export default function DentistsSection() {
         >
               <div className='order-2 md:order-1 bg-[#8E8358]/70 p-[1.5rem]'>
           <h2 className="font-heading text-3xl pb-3 pt-12 text-center md:text-4xl xl:pt-48 font-semibold text-black">
-            Meet Dr. Thomas
+            Meet Dr. Emily
           </h2>
     
                   <p className='font-body text-[#fff] text-[1rem] text-center leading-relaxed lg:px-12 xl:px-28'>
-                    Dr. Thomas's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
+                    Dr. Emily's journey into dentistry began during his childhood in Addis Ababa, where he watched his grandmother struggle with dental pain due to limited access to care. That experience ignited a lifelong passion to make quality dentistry accessible to his community.
                   
                   </p>
                   <p className='font-body text-[#fff] text-[1rem] text-center leading-relaxed lg:px-12 xl:px-28'>

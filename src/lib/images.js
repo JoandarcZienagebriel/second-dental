@@ -1,17 +1,17 @@
-import doc1 from '../assets/img/doc1.jpg';
-import veneer from '../assets/img/veneer.jpg';
+import doc1 from '../assets/img/doc2.avif';
+import veneer from '../assets/img/veneer.avif';
 import general from '../assets/img/general.avif';
-import restore from '../assets/img/restorative.jpg';
-import assistant from '../assets/img/assistant.jpg';
-import otto from '../assets/img/otto.jpg';
-import chair from '../assets/img/chair.jpg'
-import senior from '../assets/img/senior.jpg';
-import braces from '../assets/img/braces.jpg';
-import retainer from '../assets/img/retainer.jpg';
-import checkup from '../assets/img/checkup.jpg';
+import restore from '../assets/img/restorative.avif';
+import assistant from '../assets/img/assistant.avif';
+import otto from '../assets/img/otto.avif';
+import chair from '../assets/img/chair.avif'
+import senior from '../assets/img/senior.avif';
+import braces from '../assets/img/braces.avif';
+import retainer from '../assets/img/retainer.avif';
+import checkup from '../assets/img/checkup.avif';
 import chair2 from '../assets/img/aboutbg.avif';
-import check from '../assets/img/check.jpg';
-import { VenetianMask } from 'lucide-react';
+import check from '../assets/img/check.avif';
+
 
 export const HERO_SLIDES = [
   
