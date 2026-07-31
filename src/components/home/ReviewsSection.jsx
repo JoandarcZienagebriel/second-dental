@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
-import texture from '../../assets/img/texture.jpg'
+
 const reviews = [
   {
     name: 'Hana Girma',
@@ -51,7 +51,7 @@ const reviews = [
 
 export default function ReviewsSection() {
   return (
-    <section className="relative py-16 md:py-8 bg-[#]">
+    <section className="relative py-16 md:py-8">
         
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:pt-[4rem] lg:pb-[4rem]">
         <motion.div
