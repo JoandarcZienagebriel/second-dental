@@ -6,6 +6,10 @@ import implant from '../assets/img/implant.avif';
 import align from '../assets/img/align.avif';
 import one from '../assets/img/1.avif';
 import two from '../assets/img/3.avif'
+import uno from '../assets/img/1.jpg';
+import due from '../assets/img/2.png'
+import quattro from '../assets/img/quattro.jpg';
+import tre from '../assets/img/tre.jpg';
 export const SERVICES = [
  
   {
@@ -48,3 +52,21 @@ export const SERVICES = [
     image: pedi,
   },
 ];
+
+export const BEFORE = [
+ {
+     image: uno,
+  },
+  {
+     image: due,
+  },
+  {
+     image: quattro,
+  },
+  {
+     image: tre,
+  },
+  
+ 
+ 
+]

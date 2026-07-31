@@ -14,7 +14,9 @@ module.exports = {
   			md: '1.2rem',
   			sm: '.9rem'
 		},
+		
   		colors: {
+			
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -67,11 +69,11 @@ module.exports = {
   			}
   		},
   		fontFamily: {
-  			heading: ['Poppins','sans-serif'],
-  			body: ['Poppins', 'sans-serif'],
-  			display: ['Poppins', 'sans-serif'],
+  			heading:  ['"Cormorant Garamond"', 'serif'],
+  			body: ['Inter', 'sans-serif'],
+  			display: ['Inter', 'sans-serif'],
   			mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
-			logo: ['Unbounded'],
+			logo: ['"Cormorant Garamond"', 'serif'],
 
   		},
   		keyframes: {

@@ -17,17 +17,17 @@ export default function Footer() {
               Compassion, Expertise, and Commitment.
             </p>
             </div>
-            <div className="flex flex-col max-w-7xl px-6 pt-3 pb-1 gap-4 lg:flex-row lg:gap-10">
+            <div className="flex flex-col max-w-7xl px-6 pt-3 pb-1 gap-6 lg:flex-row lg:gap-10">
         <a
           href="tel:09336495034"
-          className="flex items-center gap-2 border border-[#fff] px-6 py-2.5 md:text-sm xl:text-[1rem] font-medium text-[#fff] hover:bg-[#132a13] hover:[#132a13] hover:text-white hover:rounded-3xl transition-colors"
+          className="border-b-2 border-[#fff] px-8 flex items-center gap-2 md:text-sm xl:text-[1rem] font-medium text-[#fff] hover:border-[#8E8358] hover:text-[#8E8358] transition-colors"
         >
           <Phone className="w-3.5 h-3.5" />
           0933 649 5034
         </a>
         <Link
           to="/booking"
-          className="border border-[#4f772d] rounded-lg bg-[#4f772d] text-white text-center px-6 py-2.5 md:px-4 py-3 lg:px-6 py-3 md:text-sm xl:text-[1rem] font-semibold hover:bg-[#132a13] hover:border-[#132a13] hover:rounded-3xl transition-colors"
+          className="border-b-2 border-[#fff] px-8 text-white text-center md:text-sm xl:text-[1rem] font-semibold hover:border-[#8E8358] hover:text-[#8E8358] transition-colors"
         >
           Book & Smile
         </Link>
@@ -40,15 +40,15 @@ export default function Footer() {
             <h4 className="font-heading text-sm font-semibold text-white mb-4">Quick Links</h4>
             <div className="space-y-2.5 mb-8">
               {[
-                { label: 'About Us', path: '/about' },
-                { label: 'Services', path: '/services' },
-                { label: 'Location', path: '/location' },
+                { label: 'About Us', path: '#about' },
+                { label: 'Services', path: '#service' },
+                { label: 'Location', path: '#location' },
                 { label: 'Book Appointment', path: '/booking' },
               ].map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className="block text-sm text-[#F5F5F4] hover:text-[#1E3A8A] transition-colors"
+                  className="block text-sm text-[#F5F5F4] hover:text-[#8E8358] transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
           <div>
             <h4 className="font-heading text-sm font-semibold text-white mb-4">Contact</h4>
             <div className="space-y-3">
-              <a href="tel:0936495034" className="flex items-start gap-2.5 text-sm text-[#F5F5F4] hover:text-[#355097] transition-colors">
+              <a href="tel:0936495034" className="flex items-start gap-2.5 text-sm text-[#F5F5F4] hover:text-[#8E8358] transition-colors">
                 <Phone className="w-4 h-4 mt-0.5 shrink-0" />
                 0933 649 5034
               </a>

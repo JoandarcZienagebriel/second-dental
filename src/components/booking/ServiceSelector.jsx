@@ -1,5 +1,4 @@
 import React from 'react';
-import { SERVICES } from '@/lib/servicesData';
 
 export default function ServiceSelector({ value, onChange }) {
   return (

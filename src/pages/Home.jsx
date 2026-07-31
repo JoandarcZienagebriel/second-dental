@@ -1,17 +1,23 @@
 import React from 'react';
 import HeroSection from '@/components/home/HeroSection';
-import DentistsSection from '@/components/home/DentistsSection';
-import AboutPreview from '@/components/home/AboutPreview';
-import ServicesPreview from '@/components/home/ServicesPreview';
-import ReviewsSection from '@/components/home/ReviewsSection';
+import BeforeAfterSection from '@/components/home/BASection';
+import ServicePreview from '@/components/home/ServicePreview';
 
+import ReviewsSection from '@/components/home/ReviewsSection';
+import DentistSection from '@/components/home/DentistPreview';
+import LocationSection from '@/components/home/LocationSection';
+import Appointment from '@/components/home/AppointmentSection';
+import About from '@/components/home/AboutSection';
 export default function Home() {
   return (
     <div>
       <HeroSection />
-       <AboutPreview />
-      <DentistsSection />
-     
+       <ServicePreview />
+      <BeforeAfterSection />
+      <Appointment/>
+      <About/>
+     <DentistSection/>
+     <LocationSection/>
       <ReviewsSection />
     </div>
   );
